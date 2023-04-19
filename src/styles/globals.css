@@ -7,8 +7,8 @@ body {
   font-family: 'JetBrains Mono', monospace;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #101914;
-  color: #FFFFFA;
+  color: #101914;
+  background-color: #FFFFFA;
 }
 
 .pagecontent {

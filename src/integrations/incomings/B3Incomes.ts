@@ -68,6 +68,6 @@ class B3Incomings implements Import<Incoming[]> {
     };
 }
 
-const b3Incomings = new B3Incomings();
+const b3IncomingsIntegration = new B3Incomings();
 
-export default b3Incomings;
+export default b3IncomingsIntegration;

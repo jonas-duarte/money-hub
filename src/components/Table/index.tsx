@@ -68,8 +68,11 @@ const Table: React.FC<TableProps> = ({ columns, rows }) => {
 
     useEffect(() => {
         const interval = setInterval(() => {
-            gridRef.current?.api?.sizeColumnsToFit();
-        }, 1000);
+            if (gridRef.current?.api?.sizeColumnsToFit) {
+                gridRef.current?.api?.sizeColumnsToFit();
+                clearInterval(interval);
+            }
+        }, 100);
         return () => clearInterval(interval);
     }, [gridRef]);
 

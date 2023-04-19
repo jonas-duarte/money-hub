@@ -127,6 +127,6 @@ class B3Assets implements Import<Asset[]> {
     };
 }
 
-const b3Assets = new B3Assets();
+const b3AssetsIntegration = new B3Assets();
 
-export default b3Assets;
+export default b3AssetsIntegration;
